@@ -5,7 +5,7 @@ SQL:Subquerying, Nested Queries, Window functions, Joins, Statistics, Sorting an
 ## Project Context
 The manufacturing process is important for piecing together a finished product. Each part of the process must be monitored to produce items that meet certain key standards or criteria. This will ensure a smooth-running manufacturing process, consistently making high-quality products.
 ## What I Analyzed
-The dataset titled [Parts](Manufacturing%20Folder/parts.csv) contained data (500 rows) about the items being manufactured, including item number, length, width and height, and the operating machine used for each. The goal was to determine whether the manufacturing process was progressing within acceptable limits. Hence, 2 limits were set for each product: an upper control limit (UCL) and a lower control limit (LCL).
+The dataset titled [manufacturing_parts](Manufacturing%20Folder/manufacturing_parts.csv) contained data (500 rows) about the items being manufactured, including item number, length, width and height, and the operating machine used for each. The goal was to determine whether the manufacturing process was progressing within acceptable limits. Hence, 2 limits were set for each product: an upper control limit (UCL) and a lower control limit (LCL).
 
 <img width="427" height="109" alt="image" src="https://github.com/user-attachments/assets/fb4390f0-cfc5-4289-9f55-1e9c108739a2" />
 
