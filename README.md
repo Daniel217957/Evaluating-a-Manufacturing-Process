@@ -18,4 +18,6 @@ The window was set to 5 because the query is implementing a moving window of 5 c
 
 A CROSS JOIN was used to attach the computed control limits (UCL and LCL) to every row without losing or reshaping any of the main query's data.
 ## Result
+The result displayed: operator, row_number, height, avg_height, stddev_height, ucl, lcl, alert and ordered by the item_no (as highlighted in the query). 
 
+The alert column read "True" for products that fell outside the acceptable range limit (below the LCL or above the UCL) and "False" for items that were in range. View the results [here]
